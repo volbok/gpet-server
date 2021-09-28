@@ -18,11 +18,14 @@ app.listen(port);
 
 // criando pool de conexões.
 var pool = mysql.createPool({
-  host: 'www.pulsar.app.br',
+  // host: 'www.pulsar.app.br',
+  host: 'www.lessucro.com.br',
   port: 3306,
-  user: 'pulsar45_admin',
+  // user: 'pulsar45_admin',
+  user: 'lessuc44_admin',
   password: '0a1bc2def3',
-  database: 'pulsar45_gpet',
+  // database: 'pulsar45_gpet',
+  database: 'lessuc44_gpet',
 });
 
 pool.getConnection((err, connection) => {
